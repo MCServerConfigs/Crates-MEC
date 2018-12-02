@@ -1,0 +1,611 @@
+Crate:
+  CrateType: Wonder
+  CrateName: '&f&l&k;;&f&l-&2&lEarth &c&lCrate&f&l-&k;;&r' 
+  StartingKeys: 0 
+  InGUI: true 
+  Slot: 30 #Slot the item is in the GUI.
+  OpeningBroadCast: false 
+  BroadCast: '%Prefix%&6&l%Player% &fis opening an &2&lEarth Crate&f.' 
+  Item: '54' 
+  Glowing: True
+  Name: '&f&l&k;;&2&lEarth &c&lCrate&f&l&k;;' 
+  Lore: 
+    - '&d&oThis is an extremely powerful crate containing godly items' 
+    - '&eYou have &b%Keys% keys &eto open this crate with.'
+    - '&f&l(&e&l!&f&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&2&lEarth &c&lCrate Key' 
+    Lore:
+      - '&b&lLegendary SCAR garunteed' 
+      - '&e&lCan be obtained from:'
+      - '&b➢ &d/buy'
+      - '&b➢ &dand other crates'
+    Item: '131' 
+    Glowing: True  
+
+  Prizes: 
+    1:
+      DisplayName: '&a&l$10000 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 10000'
+      Messages:
+        - '&fYou just won a &a$10000 &7Voucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    2:
+      DisplayName: '&a&l$15000 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 15000'
+      Messages:
+        - '&fYou just won a &a$15000 &7Voucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    3:
+      DisplayName: '&a&l$20000 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 20000'
+      Messages:
+        - '&fYou just won a &a$20000 &7Voucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    4:
+      DisplayName: '&e&l64x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 64
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 64'
+      Messages:
+        - '&fYou just won &e64x &3XP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    5:
+      DisplayName: '&e&l96x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 96
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 96'
+      Messages:
+        - '&fYou just won &e96x &3XP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    6:
+      DisplayName: '&e&l128x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 128 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 128'
+      Messages:
+        - '&fYou just won &e128x &3XP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    7:
+      DisplayName: '&e&l64 &3&lTokens' 
+      DisplayItem: '409:0' 
+      DisplayAmount: 64 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 320'
+      Messages:
+        - '&fYou just won &e64x &3Tokens!'
+        - '&7&o320 tokens have just been added to your balance!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    8:
+      DisplayName: '&e&l96x &3&lTokens' 
+      DisplayItem: '409:0' 
+      DisplayAmount: 96 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 480'
+      Messages:
+        - '&fYou just won &e96x &3Tokens'
+        - '&7&o480 Tokens have been added to your balance!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    9:
+      DisplayName: '&e&l128x &3&lTokens' 
+      DisplayItem: '409:0' 
+      DisplayAmount: 128 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 640'
+      Messages:
+        - '&fYou just won &e32x &3Tokens'
+        - '&7&o640 Tokens have been added to your account!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    10:
+      DisplayName: '&b&l8 &7&lHoppers' 
+      DisplayItem: '154' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&c&oValue package!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+      - 'give %player% Hopper 8'
+      Messages:
+        - '&fYou just won &b8 &7Hoppers!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    11:
+      DisplayName: '&b&l8 Diamond Blocks' 
+      DisplayItem: '57' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&d&oProbably surrounded by lava!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+      - 'give %player% 57 8'
+      Messages:
+        - '&fYou just won &b8 Diamond Blocks!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    12:
+      DisplayName: '&b&l8 &a&lEmerald Blocks' 
+      DisplayItem: '133' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&d&oOof, so rare! Soooo valuable!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+      - 'give %player% 133 8'
+      Messages:
+        - '&fYou just won &b8 &aEmerald Blocks!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    13:
+      DisplayName: '&b&l8 &8&lObsidian' 
+      DisplayItem: '49' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&d&oAlmost Unbreakable!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+      - 'give %player% Obsidian 8'
+      Messages:
+        - '&fYou just won &b8 &8Obsidian!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    14:
+      DisplayName: '&8&l&m&k;;&4&lUltimate Helmet&8&l&m&k;;' 
+      DisplayItem: '314' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oThe ULTIMATE Set of Butter!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&8&l&m&k;;&4&lUltimate Helmet&8&l&m&k;;, PROTECTION_ENVIRONMENTAL:10, DURABILITY:2'
+      Messages:
+        - '&fYou just won an &4&lUltimate Helmet!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    15:
+      DisplayName: '&8&l&m&k;;&4&lUltimate Chestplate&8&l&m&k;;' 
+      DisplayItem: '315' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oThe ULTIMATE Set of Butter!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '315t, Amount:1, Name:&8&l&m&k;;&4&lUltimate Chestplate&8&l&m&k;;, PROTECTION_ENVIRONMENTAL:10, DURABILITY:2'
+      Messages:
+        - '&fYou just won an &4&lUltimate Chestplate!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    16:
+      DisplayName: '&8&l&m&k;;&4&lUltimate Leggins&8&l&m&k;;' 
+      DisplayItem: '316' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oThe ULTIMATE Set of Butter!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&8&l&m&k;;&4&lUltimate Leggins&8&l&m&k;;, PROTECTION_ENVIRONMENTAL:10, DURABILITY:2'
+      Messages:
+        - '&fYou just won some &4&lUltimate Leggins!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    17:
+      DisplayName: '&8&l&m&k;;&4&lUltimate Boots&8&l&m&k;;' 
+      DisplayItem: '317' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oThe ULTIMATE Set of Butter!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&8&l&m&k;;&4&lUltimate Boots&8&l&m&k;;, PROTECTION_ENVIRONMENTAL:10, DURABILITY:2'
+      Messages:
+       - '&fYou just won some &4&lUltimate Boots!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    18:
+      DisplayName: '&b&lMiners Pickaxe' 
+      DisplayItem: 'DIAMOND_PICKAXE' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&a&oDoesnt get much better than this!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 100
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+      - 'give %player% 278 1 Name:&b&lMiners_Pickaxe DIG_SPEED:6, DURABILITY:6, LOOT_BONUS_BLOCKS:6,'
+      Messages:
+        - '&8You just won a &b&lMiners Pickaxe'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    19: 
+      DisplayName: '&b&lLegendary Spawner Package' 
+      DisplayItem: '52' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&a&oContains 2 Zombie Spawners, 2 Skeleton Spawners'
+        - '&a&oand 1 Blaze Spawner!'
+        - '&2&lChance: &b&l1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+       - 'give %player% 52:54 2'
+       - 'give %player% 52:51 2'
+       - 'give %player% 52:61 1'
+      Messages:
+        - '&8You just won the &b&lLegendary Spawner Package!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    20:
+      DisplayName: '&4&lCrazy Spawner Package' 
+      DisplayItem: '52' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&a&oContains 3 Creeper Spawners, 3 Blaze Spawners'
+        - '&a&o2 Zombie Pigman Spawners, and 1 Iron Golem Spawner!'
+        - '&2&lChance: &b&l0.01%'
+      MaxRange: 100 
+      Chance: 0.01
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+       - 'give %player% 52:50 3'
+       - 'give %player% 52:61 3'
+       - 'give %player% 52:57 2'
+       - 'give %player% 52:99 1'
+      Messages:
+        - '&8You just won the &4&lCrazy Spawner Package!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    21:
+      DisplayName: '&6&lBlaze Spanwer' 
+      DisplayItem: '52:50' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&a&oFireballs!'
+        - '&2&lChance: &b&l3%'
+      MaxRange: 100 
+      Chance: 3
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+      - 'give %player% 52:50 1'
+      Messages:
+        - '&8You just won a &6&lBlaze Spawner!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    22:
+      DisplayName: '&7&l3 Iron Golem Spawners' 
+      DisplayItem: '52:99' 
+      DisplayAmount: 3 
+      Lore: 
+        - '&a&oSpawned to be slain'
+        - '&2&lChance: &b&l0.01%'
+      MaxRange: 100 
+      Chance: 0.01%
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+       - 'give %player% 52:99 1'
+      Messages:
+       - '&8You just won &7&l3 Iron Golem Spawners!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    23:
+      DisplayName: '&e&l/Fly Command' 
+      DisplayItem: '339' 
+      DisplayAmount: 1
+      Lore: 
+        - '&b&oI believe I can fly!'
+        - '&2&lChance: &b&l1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+       - 'oti give %player% flycommand 1'
+      Messages:
+       - '&8You just won a &e&l/Fly&8 command voucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    24:
+      DisplayName: '&e&l/Sellall Command' 
+      DisplayItem: '339' 
+      DisplayAmount: 1
+      Lore: 
+        - '&b&o'
+        - '&2&lChance: &b&l1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+       - 'oti give %player%  1'
+      Messages:
+       - '&8You just won a &e&l/ &8command voucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    25:
+      DisplayName: '&b&l50x50 Island Border' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&a&oExpand your Island Border by 50!'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15
+      Firework: true 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands: 
+       - 'asadmin addrange %player% +50'
+      Messages:
+        - '&8You just won the &4&l50x50 Island Border!!!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}

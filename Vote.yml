@@ -1,0 +1,445 @@
+Crate:
+  CrateType: CrateOnTheGo
+  CrateName: '&f&l&k;;&f&l-&a&lVote &c&lCrate&f&l-&k;;&r' 
+  StartingKeys: 0 
+  InGUI: true 
+  Slot: 12 #Slot the item is in the GUI.
+  OpeningBroadCast: false 
+  BroadCast: '%Prefix%&6&l%Player% &fis opening a &f&lVote Crate&f.' 
+  Item: '54' 
+  Glowing: true 
+  Name: '&f&l&k;;&a&lVote &c&lCrate&f&l&k;;' 
+  Lore: 
+    - '&d&oThis crate contains some unusual items' 
+    - '&eYou have &b%Keys% keys &eto open this crate with.'
+    - '&f&l(&e&l!&f&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&a&lVote &cCrate Key' 
+    Lore:
+      - '&7A special key for dedicated players' 
+      - '&e&lCan be obtained from:'
+      - '&b➢ &dVoting'
+      - '&b➢ &d/buy'
+      - '&b➢ &dother crates'
+    Item: '131' 
+    Glowing: True 
+
+  Prizes: 
+    1:
+      DisplayName: '&a&l$1500 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 1500'
+      Messages:
+        - '&fYou just won a &a&l$1500 &7&lVoucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    2:
+      DisplayName: '&a&l$5000 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 5000'
+      Messages:
+        - '&fYou just won a &a&l$5000 &7&lVoucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    3:
+      DisplayName: '&a&l$10000 &7&lVoucher' 
+      DisplayItem: '339' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&f&oSave or spend, its up to you!'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'eco give %player% 10000'
+      Messages:
+        - '&fYou just won a &a&l$10000 &7&lVoucher!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    4:
+      DisplayName: '&e&l16x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 16
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 16'
+      Messages:
+        - '&fYou just won &e&l16x &3&lXP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    5:
+      DisplayName: '&e&l24x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 24
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 24'
+      Messages:
+        - '&fYou just won &e&l24x &3&lXP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    6:
+      DisplayName: '&e&l32x &3&lXP Bottles' 
+      DisplayItem: '384' 
+      DisplayAmount: 32 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'give %player% 384 32'
+      Messages:
+        - '&fYou just won &e&l32x &3&lXP Bottles'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    7:
+      DisplayName: '&e&l16 &3&lTokens' 
+      DisplayItem: '384' 
+      DisplayAmount: 16 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 80'
+      Messages:
+        - '&fYou just won &e&l16x &3&lTokens'
+        - '&7&o80 tokens have just been added to your balance!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    8:
+      DisplayName: '&e&l24x &3&lTokens' 
+      DisplayItem: '384' 
+      DisplayAmount: 24 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 320'
+      Messages:
+        - '&fYou just won &e&l24x &3&lTokens'
+        - '&7&0320 Tokens have been added to your balance!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    9:
+      DisplayName: '&e&l32x &3&lTokens' 
+      DisplayItem: '384' 
+      DisplayAmount: 32 
+      Lore: 
+        - '&5&oUse them wisely...'
+        - '&2&lChance: &b&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'te add %player% 400'
+      Messages:
+        - '&fYou just won &e&l32x &3&lTokens'
+        - '&7&0400 Tokens have been added to your account!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    10:
+      DisplayName: '&a&lVoters Helmet' 
+      DisplayItem: '314' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oSo buttery!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&a&lVoters Helmet, PROTECTION_ENVIRONMENTAL:2, DURABILITY:1'
+      Messages:
+        - '&fYou just won a &a&lVoters Helmet!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    11:
+      DisplayName: '&a&lVoters Chestplate' 
+      DisplayItem: '315' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oSo buttery!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&a&lVoters Chestplate, PROTECTION_ENVIRONMENTAL:2, DURABILITY:1'
+      Messages:
+        - '&fYou just won a &a&lVoters Chestplate!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    12:
+      DisplayName: '&a&lVoters Leggings' 
+      DisplayItem: '316' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oSo buttery!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&a&lVoters Leggings, PROTECTION_ENVIRONMENTAL:2, DURABILITY:1'
+      Messages:
+        - '&fYou just won &a&lVoters Leggings!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    13:
+      DisplayName: '&a&lVoters Boots' 
+      DisplayItem: '317' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&oSo buttery!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '314, Amount:1, Name:&a&lVoters Boots, PROTECTION_ENVIRONMENTAL:2, DURABILITY:1'
+      Messages:
+        - '&fYou just won &a&lVoters Boots!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    14:
+      DisplayName: '&a&lEssential Grass' 
+      DisplayItem: '2' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&6&oMow your grass, not your kids!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '2, Amount:8, Name:&a&lEssential Grass'
+      Messages:
+        - '&fYou just won some &a&lEssential grass!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    15:
+      DisplayName: '&e&lFertile Soil' 
+      DisplayItem: '3' 
+      DisplayAmount: 8 
+      Lore: 
+        - '&6&oClean your yard!'
+        - '&2&lChance: &b&l10%'
+      MaxRange: 100 
+      Chance: 10
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '3, Amount:8, Name:&e&lFertile Soil'
+      Messages:
+        - '&fYou just won some &e&lFertile Soil'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+        Items: {}
+    16:
+      DisplayName: '&d&lPig &c&lSpawner' 
+      DisplayItem: '52:0' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&b&oBorn to be slain!'
+        - '&2&lChance: &b&l3%'
+      MaxRange: 100 
+      Chance: 3
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '52:0, Amount:1, Name:&d&lPig &c&lSpawner'
+      Messages:
+        - '&fYou just won a &d&lPig &c&lSpawner!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    17:
+      DisplayName: '&f&lChicken &c&lSpawner' 
+      DisplayItem: '52:93' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&b&oBorn to be slain!'
+        - '&2&lChance: &b&l1%'
+      MaxRange: 100 
+      Chance: 1
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '52:0, Amount:1, Name:&f&lChicken &c&lSpawner'
+      Messages:
+        - '&fYou just won a &f&lChicken &c&lSpawner!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    18:
+      DisplayName: '&a&LCreeper &c&lSpawner' 
+      DisplayItem: '52:50' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&b&oBorn to be slain!'
+        - '&2&lChance: &b&L0.5%'
+      MaxRange: 100 
+      Chance: 0.5
+      Firework: false 
+      Glowing: false 
+      Player: '' 
+      Unbreakable: false 
+      Items:
+      - '52:0, Amount:1, Name:&a&lCreeper &c&lSpawner'
+      Messages:
+        - '&fYou just won a &a&lCreeper &c&lSpawner!'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}

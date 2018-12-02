@@ -1,0 +1,202 @@
+Crate:
+  CrateType: CSGO 
+  CrateName: '&f&l&k;;&f&l-&d&lRank &b&lCrate&f&l-&k;;&r' 
+  StartingKeys: 0 
+  InGUI: true 
+  Slot: 23 #Slot the item is in the GUI.
+  OpeningBroadCast: true 
+  BroadCast: '%Prefix%&6&l%Player% &fis opening an &d&lRank &f&lCrate&f' 
+  Item: '130' 
+  Glowing: false 
+  Name: '&f&l&k;;&d&lRank &b&lCrate&f&l&k;;' 
+  Lore: 
+    - '&d&oThis crate contains powerful booklets' 
+    - '&eYou have &b%Keys% keys &eto open this crate with.'
+    - '&f&l(&e&l!&f&l) Right click to view rewards.'
+  PhysicalKey:
+    Name: '&d&lRank &bCrate Key' 
+    Lore:
+      - '&cThe rarest key of them all' 
+      - '&e&lCan be obtained from:'
+      - '&b➢ &d/buy'
+      - '&b➢ &dand other crates'
+    Item: '131' 
+    Glowing: True 
+
+  Prizes: 
+    1:
+      DisplayName: '&a&lNymph &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l30%'
+      MaxRange: 100 
+      Chance: 33 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% nymphrank 1'
+      Messages:
+        - '&7You have won a &a&lNymph &6&lRank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    2:
+      DisplayName: '&2&lSatyr &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l27%'
+      MaxRange: 100 
+      Chance: 25 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% satyrrank 1'
+      Messages:
+        - '&7You have won a &9&lSatyr &6&lRank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    3:
+      DisplayName: '&5&lCyclopse Rank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&20%'
+      MaxRange: 100 
+      Chance: 20 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% cyclopserank 1'
+      Messages:
+        - '&7You have won a &6&lCyclopse Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    4:
+      DisplayName: '&3&lMinotaur &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l15%'
+      MaxRange: 100 
+      Chance: 15 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% minotaurrank 1'
+      Messages:
+        - '&7You have won a &3&lMinotaur Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    5:
+      DisplayName: '&d&lSiren &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l10%'
+      MaxRange: 100 
+      Chance: 10 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% sirenrank 1'
+      Messages:
+        - '&7You have won a &d&lSiren Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    6:
+      DisplayName: '&7&lOracle &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l5%'
+      MaxRange: 100 
+      Chance: 5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% oraclerank 1'
+      Messages:
+        - '&7You have won a &7&lOracle Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    7:
+      DisplayName: '&e&lDemigod &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l1%'
+      MaxRange: 100 
+      Chance: 1 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% demigodrank 1'
+      Messages:
+        - '&7You have won a &e&lDemigod Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}
+    8:
+      DisplayName: '&6&lGod &6&lRank&r' 
+      DisplayItem: 'book' 
+      DisplayAmount: 1 
+      Lore: 
+        - '&6&lChance: &c&l0.5%'
+      MaxRange: 100 
+      Chance: 0.5 
+      Firework: false 
+      Glowing: true 
+      Player: '' 
+      Unbreakable: false 
+      Commands:
+        - 'oti give %player% godrank 1'
+      Messages:
+        - '&7You have won a &6&lGod Rank'
+      BlackListed-Permissions: {} 
+      Alternative-Prize: 
+        Toggle: false 
+        Messages: {}
+        Commands: {}
+        Items: {}

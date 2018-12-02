@@ -1,0 +1,67 @@
+# This is a template config file
+# define your parameter and its value like:
+Messages:
+  ErrorMsg : "&c[OneTimeItem] : Some error occured."
+  NoPlayer : "&c[OneTimeItem] : Player Not Found."
+  NoSuchOneTimeItem : "&c[OneTimeItem] : No such OneTimeItem %type% found."
+  OItemGiven: "&a[OneTimeItem] %player% received %amount% one time items of type %type%!"
+  OnceInALifetime: "&c[OneTimeItem] : You can use this item once in your lifetime!"
+  CannotUseIt: "&c[OneTimeItem] : You cannot use it here!"
+  NoPermission : "&c[OneTimeItem] : You don't have a permission to use this item!"
+
+HelpMessages:
+  banner:
+    msg: "=== &e[&aOneTimeItem Commands List (%version%)&e] &r==="  
+  help:
+    msg: "&a/oti help : displays this help menu."
+  reload:
+    msg: "&a/oti reload : reloads config file."
+    permission: "onetimeitem.reload"
+  debug:
+    msg: "&a/oti debug <true|false> : turn on / off the debug mode."
+    permission: "onetimeitem.debug"
+  give:
+    msg: "&a/oti give <player> <one_time_item_id> <amount> : gives <player> the specified one time items."
+    permission: "onetimeitem.admin"
+  list:
+    msg: "&a/oti list : lists available one time items."
+    permission: "onetimeitem.admin"
+
+# if this option is set to true, a user must have a correspoiding permission
+# node to use the item
+UsePermissionNode: false
+
+# this option just enable/disable the fake glowing effect.
+UseEnchantGlow: true
+
+# this option will allow you to use OTI without NBT tag.
+# instead it will add unique item tag to the item's lore
+UseItemTag: false
+
+OneTimeItems:
+  Multiplier1:
+    Item: 340
+    Data: 0                     #this is for item like INK_SACK
+    Name: "&2&lEarth &6&lRank"
+    Lore:
+      - "&bRight Click to redeem!"
+    Commands:
+      - ">asa addmultiplier %player% 2 1:0"
+    RandomCommand:         # one of following commands will be randomly picked and executed.
+      - ">eco give %player% 100"
+      - ">te add %player% 100"
+  Multiplier2:
+    Item: ENDER_PEARL
+    Name: "&aMultiplier 2"
+    Lore:
+      - "&bRight Click to redeem!"
+    Commands:
+      - ">asa addmultiplier %player% 2 2:0"
+    OnceInALifetime: true  # a player can use this item only once in his/her lifetime
+#    DisabledWorlds:
+#      - no_multiplier
+#    DisabledRegions:
+#      - no_multi_region
+#    Sound: BLOCK_ANVIL_BREAK
+#    Effect: explode   # explode a particle effect at execution.
+
